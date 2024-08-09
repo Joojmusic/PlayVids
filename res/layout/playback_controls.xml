@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/controls"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txVideoTitle"
+        android:text="Movie title goes here"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/sbPlayback"
+                android:thumbTint="#AD1457"
+                android:progressTint="#AD1457"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/prevBtn"
+                android:src="@drawable/ic_prev"
+                android:backgroundTint="#00000000"/>
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/playPauseBtn"
+                android:src="@drawable/ic_play"
+                android:backgroundTint="#00000000"/>
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/nextBtn"
+                android:src="@drawable/ic_next"
+                android:backgroundTint="#00000000"/>
+
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/pipBtn"
+                android:src="@drawable/ic_pip_mode"
+                android:backgroundTint="#00000000"/>
+
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/vidSettingBtn"
+                android:src="@drawable/ic_video_settings"
+                android:backgroundTint="#00000000"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
