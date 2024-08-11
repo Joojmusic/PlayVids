@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Play Vids</string>
+    <string name="add_link_hint">Enter Video URL</string>
+    <string name="add_link_button">Play Video From URL</string>
+    <string name="return_btn">Return</string>
+    <string name="company_name">from Neon Tek</string>
+    <string name="add_link_inst">
+        Play videos from online streaming services such as Youtube, Twitch, Netflix
+        Goojara etc by pasting the Video link address below.
+    </string>
+</resources>
