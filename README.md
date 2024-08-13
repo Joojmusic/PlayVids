@@ -15,22 +15,25 @@ Coming Soon
 
 ## Installation
 
-1. **Clone the Repository:**
+0. **Access the project files here:**
+   Get it from [Google Drive](https://drive.google.com/drive/folders/1pOqyuX1DG1BqGPLtnj8PYxCHN_ifXe6B)
+
+2. **Clone the Repository:**
 
     ```bash
     git clone https://github.com/Joojmusic/Playvids.git
     ```
 
-2. **Open in Android Studio:**
+3. **Open in Android Studio:**
     - Launch Android Studio.
     - Select "Open an existing Android Studio project."
     - Navigate to the cloned repository and open it.
 
-3. **Build the Project:**
+4. **Build the Project:**
     - Sync the Gradle files.
     - Build the project by clicking on `Build > Make Project` or pressing `Ctrl + F9`.
 
-4. **Run the App:**
+5. **Run the App:**
     - Connect your Android device or start an emulator.
     - Click the `Run` button or press `Shift + F10` to install and run the app.
 
